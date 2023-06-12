@@ -18,7 +18,22 @@
     letter-spacing: 4px;
 }
 .trending{
-    height: 100vh;
-    background: url("../assets/images/bg/spiderman.jpg");
+    height: auto;
+    background: url("../assets/images/bg/scifi.jpg");
+    background-size: cover;
+}
+
+.movieImage{
+    height: auto;
+    margin: 5px;
+ padding : 5px;
+}
+.images{
+ height: 500px;
+}
+
+.superhero{
+    height: auto;
+    background: url("../assets/images/bg/car.jpg");
     background-size: cover;
 }

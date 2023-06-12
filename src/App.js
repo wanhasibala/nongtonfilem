@@ -3,6 +3,7 @@ import NavigationBar from './components/navigationBar';
 import "./style/landingPage.css"
 import Intro from './components/intro';
 import Trending from "./components/Trending"
+import Superhero from './components/Superhero';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
   </div>
   <div className="trending">
 <Trending />
+  </div>
+  <div className="superhero">
+    <Superhero />
   </div>
 </div>
   );
